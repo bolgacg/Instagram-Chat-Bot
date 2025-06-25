@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Policy - Instagram Bot Manager</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #f39c12;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #7f8c8d;
+        }
+        .last-updated {
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            background: #fff3e0;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #f39c12;
+        }
+        .navigation {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .navigation a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .navigation a:hover {
+            background: #2980b9;
+        }
+        .timeline {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #27ae60;
+            margin: 20px 0;
+        }
+        .warning {
+            background: #fdeaea;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #e74c3c;
+            margin: 20px 0;
+        }
+        .process-step {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 3px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <a href="terms.html">Terms of Service</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="deletion.html">Data Deletion</a>
+        </div>
+
+        <h1>Data Deletion Policy</h1>
+        
+        <div class="last-updated">
+            <strong>Last Updated:</strong> June 25, 2025
+        </div>
+
+        <h2>1. Overview</h2>
+        <p>This Data Deletion Policy explains how users can request deletion of their data from Instagram Bot Manager and what data is removed in the process.</p>
+
+        <h2>2. What Data We Store</h2>
+        
+        <h3>2.1 User Configuration Data</h3>
+        <ul>
+            <li>Bot settings and preferences</li>
+            <li>Business context from uploaded PDFs</li>
+            <li>Response personality and behavior settings</li>
+            <li>Platform connection preferences</li>
+        </ul>
+
+        <h3>2.2 API Credentials (Encrypted)</h3>
+        <ul>
+            <li>Instagram/Facebook access tokens</li>
+            <li>OpenAI API keys</li>
+            <li>Facebook Page IDs</li>
+            <li>Instagram Account IDs</li>
+        </ul>
+
+        <h3>2.3 Activity Logs</h3>
+        <ul>
+            <li>Bot response logs (30-day retention)</li>
+            <li>Error logs and debugging information</li>
+            <li>Usage statistics and performance metrics</li>
+        </ul>
+
+        <h3>2.4 Temporary Processing Data</h3>
+        <ul>
+            <li>Instagram comments (processed, not stored)</li>
+            <li>AI responses (logged temporarily for debugging)</li>
+            <li>Session data (cleared automatically)</li>
+        </ul>
+
+        <h2>3. How to Request Data Deletion</h2>
+        
+        <h3>3.1 Immediate Self-Service Deletion</h3>
+        
+        <div class="process-step">
+            <h4>Option 1: Stop Using the Service</h4>
+            <ol>
+                <li>Stop your bot in the Control tab</li>
+                <li>Clear your credentials from the application</li>
+                <li>Close the application</li>
+                <li>Most session data is automatically cleared</li>
+            </ol>
+        </div>
+
+        <div class="process-step">
+            <h4>Option 2: Revoke API Access</h4>
+            <ol>
+                <li>Go to Facebook App settings</li>
+                <li>Revoke permissions for the Instagram Bot app</li>
+                <li>Go to OpenAI account settings</li>
+                <li>Revoke or delete API keys</li>
+                <li>This prevents further data access</li>
+            </ol>
+        </div>
+
+        <h3>3.2 Complete Data Deletion Request</h3>
+        
+        <div class="contact-info">
+            <p><strong>For complete data removal, contact us:</strong></p>
+            <p><strong>Email:</strong> delete@instagrambot.example.com<br>
+            <strong>Subject:</strong> "Data Deletion Request"</p>
+            
+            <p><strong>Include in your request:</strong></p>
+            <ul>
+                <li>Your Facebook Page ID or Instagram username</li>
+                <li>Email address used with the service</li>
+                <li>Confirmation that you want all data deleted</li>
+                <li>Preferred method of deletion confirmation</li>
+            </ul>
+        </div>
+
+        <h3>3.3 Automated Deletion Request</h3>
+        <p><strong>For Facebook compliance:</strong></p>
+        <ul>
+            <li>Submit deletion request through Facebook's Data Deletion API</li>
+            <li>Include your Facebook User ID or Page ID</li>
+            <li>Automatic processing within 30 days</li>
+        </ul>
+
+        <h2>4. Data Deletion Process</h2>
+        
+        <div class="timeline">
+            <h3>4.1 Deletion Timeline</h3>
+            <ul>
+                <li><strong>Immediate:</strong> Session data and active connections</li>
+                <li><strong>Within 24 hours:</strong> Configuration data and settings</li>
+                <li><strong>Within 7 days:</strong> Encrypted API credentials</li>
+                <li><strong>Within 30 days:</strong> All log files and historical data</li>
+            </ul>
+        </div>
+
+        <h3>4.2 What Gets Deleted</h3>
+        
+        <h4>Immediately Removed:</h4>
+        <ul>
+            <li>✅ Active bot sessions</li>
+            <li>✅ Cached response data</li>
+            <li>✅ Temporary processing files</li>
+            <li>✅ Browser session storage</li>
+        </ul>
+
+        <h4>Within 24 Hours:</h4>
+        <ul>
+            <li>✅ User configuration and settings</li>
+            <li>✅ Uploaded business context PDFs</li>
+            <li>✅ Personality and response preferences</li>
+            <li>✅ Bot behavior customizations</li>
+        </ul>
+
+        <h4>Within 7 Days:</h4>
+        <ul>
+            <li>✅ Encrypted API credentials</li>
+            <li>✅ Access tokens and authentication data</li>
+            <li>✅ Platform connection information</li>
+            <li>✅ Account linking data</li>
+        </ul>
+
+        <h4>Within 30 Days:</h4>
+        <ul>
+            <li>✅ Historical activity logs</li>
+            <li>✅ Error logs and debugging information</li>
+            <li>✅ Performance metrics and analytics</li>
+            <li>✅ Backup copies in secure storage</li>
+        </ul>
+
+        <div class="warning">
+            <h3>4.3 What Cannot Be Deleted</h3>
+            <p><strong>Third-Party Data:</strong></p>
+            <ul>
+                <li>❌ Instagram posts/comments (owned by Meta)</li>
+                <li>❌ AI model training data (OpenAI's property)</li>
+                <li>❌ Legal compliance records (retained as required)</li>
+            </ul>
+            <p><strong>Note:</strong> We cannot delete content from Instagram or OpenAI's systems, as this data is controlled by those platforms.</p>
+        </div>
+
+        <h2>5. Verification and Confirmation</h2>
+        
+        <h3>5.1 Identity Verification</h3>
+        <p>Before processing deletion requests, we may verify:</p>
+        <ul>
+            <li>Ownership of the Instagram/Facebook accounts</li>
+            <li>Email address used with the service</li>
+            <li>Additional verification for security purposes</li>
+        </ul>
+
+        <h3>5.2 Deletion Confirmation</h3>
+        <p>We will confirm deletion by:</p>
+        <ul>
+            <li>Email confirmation within 24 hours of completion</li>
+            <li>Deletion certificate if requested</li>
+            <li>Confirmation that third-party access has been revoked</li>
+        </ul>
+
+        <h2>6. Account Deactivation vs. Data Deletion</h2>
+        
+        <h3>6.1 Account Deactivation</h3>
+        <ul>
+            <li>Stops bot activity but retains settings</li>
+            <li>Can be reactivated later</li>
+            <li>Data remains encrypted but accessible</li>
+        </ul>
+
+        <h3>6.2 Complete Data Deletion</h3>
+        <ul>
+            <li>Permanently removes all data</li>
+            <li>Cannot be undone or restored</li>
+            <li>Requires setting up service again from scratch</li>
+        </ul>
+
+        <h2>7. Automated Data Cleanup</h2>
+        
+        <h3>7.1 Regular Cleanup</h3>
+        <ul>
+            <li>Session data: Cleared every 24 hours</li>
+            <li>Error logs: Deleted after 30 days</li>
+            <li>Temporary files: Removed after processing</li>
+        </ul>
+
+        <h3>7.2 Inactive Account Cleanup</h3>
+        <ul>
+            <li>Accounts inactive for 90 days: Configuration data removed</li>
+            <li>Accounts inactive for 180 days: All data deleted</li>
+            <li>Email notification sent before automated deletion</li>
+        </ul>
+
+        <div class="contact-info">
+            <h2>8. Questions and Support</h2>
+            <p>For questions about data deletion:</p>
+            <ul>
+                <li><strong>General Questions:</strong> support@instagrambot.example.com</li>
+                <li><strong>Deletion Requests:</strong> delete@instagrambot.example.com</li>
+                <li><strong>Privacy Officer:</strong> privacy@instagrambot.example.com</li>
+                <li><strong>Legal Compliance:</strong> legal@instagrambot.example.com</li>
+            </ul>
+        </div>
+
+        <h2>9. Regulatory Rights</h2>
+        <p>Under applicable privacy laws (GDPR, CCPA, etc.), you have the right to:</p>
+        <ul>
+            <li>Request deletion of personal data</li>
+            <li>Receive confirmation of deletion</li>
+            <li>File complaints with regulatory authorities</li>
+            <li>Receive data deletion certificates</li>
+        </ul>
+
+        <p><strong>For region-specific deletion procedures, please contact our privacy team.</strong></p>
+    </div>
+</body>
+</html>
